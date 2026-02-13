@@ -71,14 +71,8 @@ news_classification_project/
 - **Random State**: 42 (reproducible results)
 - **Text Preprocessing**: Lowercase, remove URLs/numbers/special chars, stopword removal
 
-## GitHub Repository
-[Add your GitHub repository link here]
 
 ## Video Explanation
-[Add your video explanation link here]
-
+https://youtu.be/O-vwAdgSuiA?si=xX86RDOcYSk2JTlR
 ## Author
-[Add your name here]
-
-## License
-Educational project for AI/ML assessment.
+leela mohan
