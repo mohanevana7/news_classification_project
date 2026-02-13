@@ -5,7 +5,7 @@ Machine learning pipeline for classifying BBC news articles into 5 categories us
 
 ## Dataset Source
 **BBC News Dataset** (CSV format)
-- **Primary Source**: GitHub (automatically downloaded)
+- **Primary Source**: GitHub 
 - **Alternative**: https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category
 - **Description**: 2,225 news articles
 - **Categories**: Business, Entertainment, Politics, Sport, Tech
