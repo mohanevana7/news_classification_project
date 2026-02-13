@@ -1,0 +1,29 @@
+============================================================
+NEWS ARTICLE CLASSIFICATION - EVALUATION RESULTS
+============================================================
+
+Model: LogisticRegression
+Dataset: BBC News Dataset
+Test Accuracy: 0.9812 (98.12%)
+
+Confusion Matrix:
+[[100   0   0   0   1]
+ [  1  73   0   0   0]
+ [  2   1  78   0   0]
+ [  0   0   0 101   0]
+ [  3   0   0   0  66]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+     business       0.94      0.99      0.97       101
+entertainment       0.99      0.99      0.99        74
+     politics       1.00      0.96      0.98        81
+        sport       1.00      1.00      1.00       101
+         tech       0.99      0.96      0.97        69
+
+     accuracy                           0.98       426
+    macro avg       0.98      0.98      0.98       426
+ weighted avg       0.98      0.98      0.98       426
+
+============================================================

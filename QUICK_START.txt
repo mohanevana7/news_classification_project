@@ -1,0 +1,69 @@
+╔════════════════════════════════════════════════════════════╗
+║   NEWS CLASSIFICATION PROJECT - QUICK START GUIDE          ║
+╚════════════════════════════════════════════════════════════╝
+
+✅ FIXED FOR PYTHON 3.13 + WORKING DATASET URL!
+
+INSTALLATION (3 COMMANDS)
+─────────────────────────────────────────────────────────────
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the complete pipeline:
+   python main.py
+
+3. View results:
+   type results\metrics.txt
+
+WHAT HAPPENS
+─────────────────────────────────────────────────────────────
+✓ Downloads BBC News dataset (CSV format from GitHub)
+✓ Preprocesses 2,225 news articles
+✓ Creates TF-IDF features (5000 features, unigrams + bigrams)
+✓ Trains Logistic Regression model
+✓ Evaluates on test set
+✓ Saves model and metrics
+
+EXPECTED OUTPUT
+─────────────────────────────────────────────────────────────
+- Dataset download: 5-10 seconds
+- Preprocessing: 10-15 seconds
+- Feature engineering: 5-10 seconds
+- Training: 2-5 seconds
+- Evaluation: 1-2 seconds
+- **Total time: 30-45 seconds**
+- **Final accuracy: 97-98%**
+
+BEFORE SUBMISSION
+─────────────────────────────────────────────────────────────
+1. Update README.md:
+   - Add your name (bottom of file)
+   - Add GitHub repo link
+   - Add video explanation link
+
+2. Push to GitHub:
+   git init
+   git add .
+   git commit -m "News Classification ML Project"
+   git remote add origin YOUR_GITHUB_URL
+   git push -u origin main
+
+3. Record 2-3 minute video:
+   - Show folder structure
+   - Run: python main.py
+   - Explain: Dataset, Model, Results
+   - Show: results/metrics.txt
+
+4. Submit GitHub + Video links
+
+TROUBLESHOOTING
+─────────────────────────────────────────────────────────────
+If dataset download fails:
+- Download manually from:
+  https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category
+- Save as: data/raw/bbc-text.csv
+- Run python main.py again
+
+Python Version: Works with Python 3.8-3.13 ✅
+─────────────────────────────────────────────────────────────
